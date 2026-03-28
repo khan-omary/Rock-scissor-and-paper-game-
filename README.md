@@ -21,7 +21,7 @@ Play against the CPU, choose your weapon, and see who wins! Perfect for learning
 - JavaScript
 
 ## Live Demo
-Play the game live: [Rock, Paper, Scissors Game](https://khan-omary.github.io/Guessing-game-/)
+Play the game live: [Rock, Paper, Scissors Game
 
 ## Keywords
 Rock Paper Scissors Game, JavaScript Game, HTML Game, Online Game, Fun Game, Interactive Game, CPU Game
