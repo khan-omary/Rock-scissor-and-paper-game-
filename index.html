@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Play Rock, Paper, Scissors online. Built with HTML, CSS, JavaScript. Fun interactive game with CPU.">
+    <meta name="keywords" content="Rock Paper Scissors Game, JavaScript Game, HTML Game, Online Game, Fun Game, Interactive Game">
+    <meta name="robots" content="index, follow">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Rock, Paper, Scissore</title>
+</head>
+<body>
+    
+    <div class="grid_div">
+        <div class="right_div">
+            <h1 id="weapon">Choose your weapon</h1><br>
+            <div class="choose-img">
+                <img src="./image/image/papers.png" class="image_items" alt="">
+                <img src="./image/image/rocks.png" class="image_items" alt="">
+                <img src="./image/image/scissor.png" class="image_items" alt="">
+            </div><br>
+            <h1>CPU Choosed</h1><br>
+            <div class="cpu_img">
+                <!-- <div class="refresh-bottom">
+                    <button id="ref-btn">Refresh</button>
+                </div> -->
+                <img src="./image/image/papers.png" class="img_cpu_choosed hidden" alt="">
+                <img src="./image/image/rocks.png" class="img_cpu_choosed hidden" alt="">
+                <img src="./image/image/scissor.png" class="img_cpu_choosed hidden" alt="">
+                
+            </div> 
+
+        </div>
+        <div class="left_div">
+            <h1>Points:</h1><br>
+            <div class="Reslut_cont">
+                <div class="user-point-cont">
+                    <h1>Users:</h1>
+                    <div id="user-point">
+                        0
+                    </div>
+                </div>
+                <div class="cpu-point-cont">
+                    <h1>CPUs:</h1>
+                    <div id="cpu-point">
+                        0
+                    </div>
+                </div>
+            </div>
+            <div class="refresh-bottom">
+                    <button id="ref-btn">Refresh</button>
+            </div>
+        </div>
+    </div>
+    <script src="scriptJS.js">
+    </script>
+</body>
+</html>þ
